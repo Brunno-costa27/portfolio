@@ -32,17 +32,17 @@ export function Main(){
 
     return (
         <main className="w-full px-10 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative">
-            <div className="flex flex-col space-y-5 lg:space-y-20 lg:absolute">
-               <p className="text-3xl lg:text-6xl flex flex-col lg:space-y-10 space-y-5">
+            <div className="flex flex-col justify-center items-center space-y-5 lg:space-y-20 lg:absolute">
+               <p className="w-full text-2xl lg:text-6xl flex flex-col lg:space-y-10 space-y-5">
                 <span className="gradient-text font-semibold">Hello, I'm Brunno, </span>
                 <span className='font-semibold'>Full Stack developer</span>
                 </p>
 
-                <p className='text-[#929EB0] lg:text-base text-sm lg:w-[620px] text-left'>
+                <p className='text-[#929EB0] lg:text-base text-sm lg:w-[620px] text-left tracking-tighter'>
                 graduated in Systems Analysis and Development from the Federal Institute of Rio Grande do Norte. He has solid programming skills, having experience in the JavaScript language.
                 </p>
 
-                <div className=''>
+                <div className='w-full'>
                 <button 
                     onClick={handleDownload}
                     className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center p-3 lg:p-6 lg:w-[226px] w-full  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
