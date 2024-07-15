@@ -6,7 +6,7 @@ export function AboutMe() {
 
     return (
         <section className="text-white px-10  mx-auto  lg:mt-60 mt-80 flex flex-col justify-between lg:px-96 font-sans relative">
-            <h2 className="text-4xl font-semibold text-left">About Me</h2>
+            <h2 className="text-3xl lg:text-4xl font-semibold text-left">About Me</h2>
 
             <div className="mt-8 relative lg:flex flex flex-col">
                 <TimeLine>

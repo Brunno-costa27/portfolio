@@ -1,8 +1,8 @@
 export function Technologies() {
 
     return (
-        <section className="text-white px-10 mt-28 flex flex-col justify-between lg:px-96 font-sans relative">
-            <h2 className="text-4xl font-semibold text-left">Technologies</h2>
+        <section className="text-white px-10 mt-20 flex flex-col justify-between lg:px-96 font-sans relative">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-left">Technologies</h2>
             <div className="w-full rounded-full h-4 mt-10 space-y-12">
                 <div className="flex flex-col space-y-2">
                     <div className="w-full flex justify-between">
