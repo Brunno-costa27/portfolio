@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .underline-effect::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+      transition: width 0.3s;
+      position: absolute;
+      bottom: -2px; /* Ajuste conforme necessário */
+    }
+
+    .underline-effect:hover::after {
+      width: 100%;
+      
+    }
+
+    .border-gradient {
+      position: relative;
+      display: inline-block;
+      padding: 1px; /* Espaço para a borda */
+      background: linear-gradient(45deg, #f3ec78, #af4261); /* Ajuste as cores do gradiente */
+      border-radius: 0.5rem; /* Ajuste o raio da borda conforme necessário */
+    }
+    .border-gradient > .content {
+      background-color: white; /* Cor de fundo do conteúdo */
+      border-radius: inherit;
+      padding: 1rem; /* Ajuste o padding conforme necessário */
+    }
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6); /* Gradiente de exemplo */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: background 0.3s;
+  }
+
+  .custom-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Exemplo de sombra personalizada */
+  }
