@@ -25,14 +25,11 @@ export function Main(){
           console.error('Erro ao baixar o arquivo:', error);
           // Tratar erros, exibir mensagens de erro, etc.
         }
-      };
-
-
-      
+      };   
 
     return (
-        <main className="w-full px-10 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative">
-            <div className="flex flex-col justify-center items-center space-y-5 lg:space-y-20 lg:absolute px-8">
+        <main className="w-full px-5 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative">
+            <div className="flex flex-col justify-center items-center space-y-5 lg:space-y-20 lg:absolute px-5 lg:p-0 xl:p-0 2xl: p-0">
                <p className="w-full text-2xl lg:text-6xl flex flex-col lg:space-y-10 space-y-5">
                 <span className="gradient-text font-semibold">Hello, I'm Brunno, </span>
                 <span className='font-semibold'>Full Stack developer</span>
@@ -55,12 +52,12 @@ export function Main(){
                 <img src={backgroundImage} alt="" />
             </div>
 
-            <div className='hidden lg:flex lg:absolute w-[250px] h-[250px] top-0 2xl:right-[500px]   object-cover'>
+            {/* <div className='hidden lg:flex lg:absolute w-[250px] h-[250px] top-0 2xl:right-[500px]   object-cover'>
             <img 
                 src={photograph} 
                 alt="" 
                 className='rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] shadow-lg shadow-[#00B2FF]'/>
-            </div>
+            </div> */}
         </main>
     )
 }
