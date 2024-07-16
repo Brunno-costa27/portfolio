@@ -45,3 +45,14 @@
   .custom-shadow {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Exemplo de sombra personalizada */
   }
+
+  
+  .vertical-timeline-element-icon {
+    width: 30px !important; /* Ajusta a largura do ícone */
+    height: 30px !important; /* Ajusta a altura do ícone */
+    margin-left: -15px !important; /* Centraliza o ícone */
+  }
+  
+  .vertical-timeline-element-icon i {
+    font-size: 16px; /* Ajusta o tamanho da fonte do ícone */
+  }

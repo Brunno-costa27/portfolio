@@ -1,15 +1,22 @@
 import { Footer } from "./Footer";
+import Timeline from "./Timeline";
 import TimeLine from "./TimeLine/TimeLine";
 import TimeLineItem from "./TimeLine/TimeLineItem";
 
-export function AboutMe() {
 
+export function AboutMe() {
+    
+    const timelineData = [
+        { date: "2023", text: "Evento 1", title: "Descrição do evento 1" },
+        { date: "2024", text: "Evento 2", title: "Descrição do evento 2" },
+        { date: "2024", text: "Evento 3", title: "Descrição do evento 3" },
+      ];
     return (
-        <section className="text-white px-10  mx-auto  lg:mt-60 mt-80 flex flex-col justify-between lg:px-96 font-sans relative">
-            <h2 className="text-3xl lg:text-4xl font-semibold text-left">About Me</h2>
+        <section className="text-white px-10  mx-auto  lg:mt-60 mt-80 flex flex-col justify-between xl:px-20 lg:px-96 font-sans relative">
+            <h2 className="text-xl lg:text-4xl font-semibold text-left">About Me</h2>
 
             <div className="mt-8 relative lg:flex flex flex-col">
-                <TimeLine>
+                {/* <TimeLine>
                     <TimeLineItem title="2021" date="">
                         <p className="text-[#929EB0] text-left overflow-hidden">
 
@@ -30,7 +37,8 @@ export function AboutMe() {
                         </p>
                     </TimeLineItem>
 
-                </TimeLine>
+                </TimeLine> */}
+                <Timeline items={timelineData}/>
             </div>
 
 
