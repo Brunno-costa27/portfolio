@@ -67,7 +67,7 @@ const Timeline = () => {
       </p>
     </VerticalTimelineElement>
 
-    <VerticalTimelineElement
+    {/* <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2024"
       contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
@@ -85,7 +85,7 @@ const Timeline = () => {
       <p className='text-[#929EB0]'>
       took a reactJs and NodeJs course at <span className="gradient-text"><a href="https://app.rocketseat.com.br/">rocketseat</a></span> platform.
       </p>
-    </VerticalTimelineElement>
+    </VerticalTimelineElement> */}
   </VerticalTimeline>
   );
 };
