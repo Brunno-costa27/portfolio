@@ -3,7 +3,6 @@ import instagran from '../assets/images/instagran.svg'
 import seta from '../assets/images/seta.svg'
 import { useEffect, useState, useRef } from 'react';
 
-
 export function Header() {
 
     const timelineRef = useRef(null);
@@ -36,7 +35,7 @@ export function Header() {
                 onClick={scrollToTimeline}
                 className="fixed bottom-4 right-4 rounded-full shadow-lg hover:opacity-90"
             >
-                <img src={seta} alt="" />
+                <img src={seta} alt="" loading="lazy"/>
             </button>
             {isMobile ? (
                 <header ref={timelineRef}  className="px-10 lg:px-20 text-white flex flex-col justify-between items-center py-10 2xl:px-96 font-sans space-y-10">
@@ -47,11 +46,11 @@ export function Header() {
 
                         <div className="w-full flex justify-end gap-5 order-2 md:order-3">
                             <a className='w-6 h-6' href="https://www.linkedin.com/in/brunno-costa/" target="_blank">
-                                <img src={linkedin} alt="icons" />
+                                <img src={linkedin} alt="icons" loading="lazy"/>
                             </a>
 
                             <a className='w-6 h-6' href="https://www.instagram.com/brunno_costa31/ " target="_blank">
-                                <img src={instagran} alt="icons" />
+                                <img src={instagran} alt="icons" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -138,11 +137,11 @@ export function Header() {
 
                     <div className="w-full flex justify-end gap-5 order-2 md:order-3">
                         <a href="https://www.linkedin.com/in/brunno-costa/" target="_blank">
-                            <img src={linkedin} alt="icons" />
+                            <img src={linkedin} alt="icons" loading="lazy"/>
                         </a>
 
                         <a href="https://www.instagram.com/brunno_costa31/ " target="_blank">
-                            <img src={instagran} alt="icons" />
+                            <img src={instagran} alt="icons" loading="lazy"/>
                         </a>
                     </div>
                 </header>

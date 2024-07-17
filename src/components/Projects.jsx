@@ -1,7 +1,7 @@
 import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/project2.png'
 import project3 from '../assets/images/project3.png'
-import project4 from '../assets/images/project4.png'
+// import project4 from '../assets/images/project4.png'
 import project5 from '../assets/images/project5.png'
 
 
@@ -13,7 +13,7 @@ export function Projects() {
                 <h2 className="text-xl lg:text-4xl font-semibold mb-10">Projects</h2>
                 <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-8 ">
                     <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] object-cover' src={project1} alt="" />
+                        <img className='w-full h-[270px] object-cover' src={project1} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>
@@ -39,7 +39,7 @@ export function Projects() {
                     </div>
 
                     <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px]' src={project2} alt="" />
+                        <img className='w-full h-[270px]' src={project2} alt="" loading="lazy"/>
 
                         <div className='flex flex-col space-y-6'>
                         <p className='text-base lg:text-2xl font-semibold'>
@@ -66,7 +66,7 @@ export function Projects() {
                     </div>
 
                     <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] object-cover' src={project3} alt="" />
+                        <img className='w-full h-[270px] object-cover' src={project3} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>
@@ -122,7 +122,7 @@ export function Projects() {
                     </div> */}
 
                     <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] ' src={project5} alt="" />
+                        <img className='w-full h-[270px] ' src={project5} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>

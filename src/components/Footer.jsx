@@ -19,11 +19,11 @@ export function Footer(){
 
              <div className="w-full flex justify-end gap-5">
                 <a href="https://www.linkedin.com/in/brunno-costa/" target="_blank">
-                        <img src={linkedin} alt="icons" />
+                        <img src={linkedin} alt="icons" loading="lazy"/>
                     </a>
 
                     <a href="https://www.instagram.com/brunno_costa31/ " target="_blank">
-                        <img src={instagran} alt="icons" />
+                        <img src={instagran} alt="icons" loading="lazy"/>
                     </a>
              </div>
         </section>

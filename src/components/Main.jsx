@@ -1,5 +1,5 @@
 import backgroundImage from '../assets/images/backgroundImage.svg'
-import photograph from '../assets/images/photograph.jpg'
+// import photograph from '../assets/images/photograph.jpg'
 import axios from 'axios'
 
 export function Main(){
@@ -41,15 +41,18 @@ export function Main(){
 
                 <div className='w-full'>
                 <button 
+                
+                    type='button'
                     onClick={handleDownload}
-                    className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center p-3 lg:p-6 lg:w-[226px] w-full  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
-                    Download CV
+                    className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center p-3 lg:p-6 lg:w-[226px] w-full  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90 ">
+                    Download CV 
                 </button>
+          
                 </div>
             </div>
 
             <div className='hidden lg:w-full lg:flex lg:justify-end lg:items-end'>
-                <img src={backgroundImage} alt="" />
+                <img src={backgroundImage} alt="" loading="lazy"/>
             </div>
 
             {/* <div className='hidden lg:flex lg:absolute w-[250px] h-[250px] top-0 2xl:right-[500px]   object-cover'>

@@ -88,9 +88,6 @@ export function TechnologiesAndSkills() {
                         <p className="text-base lg:text-xl font-semibold">GitHub</p>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
     )

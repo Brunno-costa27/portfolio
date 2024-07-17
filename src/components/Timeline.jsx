@@ -26,6 +26,27 @@ const Timeline = () => {
         I worked as an intern for a year as a full stack developer.
       </p>
     </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work text-white"
+      date="2023"
+      contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
+      contentArrowStyle={{ border: 'none', background: '#0F1624' }}
+      iconStyle={{ 
+        background: 'linear-gradient(to right, #13ADC7, #6978D1, #945DD6)',
+        color: '#fff',
+        width: '40px',
+        height: '40px',
+        marginLeft: '-20px',
+        marginTop: '15px',
+      }}
+      icon={<i className="fas fa-briefcase text-white"></i>}
+    >
+      <p className='text-[#929EB0]'>
+      I worked as a front end developer as a volunteer for an NGO for a month.
+      </p>
+    </VerticalTimelineElement>
+
     <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2023"
@@ -45,6 +66,7 @@ const Timeline = () => {
         Graduated from the Federal Institute of Rio Grande do Norte (IFRN) where he developed several projects in the area of ​​software development.
       </p>
     </VerticalTimelineElement>
+
     <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2024"
@@ -61,7 +83,7 @@ const Timeline = () => {
       icon={<i className="fas fa-briefcase text-white"></i>}
     >
       <p className='text-[#929EB0]'>
-        I took a react and node course on the <span className="gradient-text"><a href="https://app.rocketseat.com.br/">rocketseat</a></span> platform.
+      took a reactJs and NodeJs course at <span className="gradient-text"><a href="https://app.rocketseat.com.br/">rocketseat</a></span> platform.
       </p>
     </VerticalTimelineElement>
   </VerticalTimeline>
