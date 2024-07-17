@@ -9,7 +9,7 @@ export function Projects() {
 
     return (
         <>
-            <section className="px-5 text-white mt-[85px] flex flex-col py-10 lg:px-20 2xl:px-96  font-sans">
+            <section id="projects" className="px-5 text-white mt-[85px] flex flex-col py-10 lg:px-20 2xl:px-96  font-sans animate-fadeIn">
                 <h2 className="text-xl lg:text-4xl font-semibold mb-10">Projects</h2>
                 <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-8 ">
                     <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>

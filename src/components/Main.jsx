@@ -28,7 +28,7 @@ export function Main(){
       };   
 
     return (
-        <main className="w-full px-5 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative">
+        <main className="w-full px-5 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative  animate-fadeIn">
             <div className="flex flex-col justify-center items-center space-y-5 lg:space-y-20 lg:absolute px-5 lg:p-0 xl:p-0 2xl: p-0">
                <p className="w-full text-2xl lg:text-6xl flex flex-col lg:space-y-10 space-y-5">
                 <span className="gradient-text font-semibold">Hello, I'm Brunno, </span>
