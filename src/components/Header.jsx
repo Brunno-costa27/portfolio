@@ -95,13 +95,13 @@ export function Header() {
                 </header>
             ) : (
                 <header ref={timelineRef}   className="px-10 lg:px-20 text-white flex justify-between items-center py-10 2xl:px-96 font-sans">
-                    <div className='w-full order-1 md:order-1'>
+                    <div className='flex  w-auto order-1 md:order-1'>
                         <p className='font-medium text-3xl'>Portfolio</p>
                     </div>
 
                     <div className="flex w-full justify-center order-3 md:order-2">
 
-                    <nav className='w-full flex justify-between items-center text-xs'>
+                    <nav className='flex justify-between items-center text-xs'>
                             <ul className='w-full flex justify-between items-center gap-5'>
                                 <li className='relative text-sm lg:text-xl xl:text-xl 2xl:text-xl'>
                                 <a 
@@ -135,7 +135,7 @@ export function Header() {
 
                     </div>
 
-                    <div className="w-full flex justify-end gap-5 order-2 md:order-3">
+                    <div className="w-auto flex justify-end gap-5 order-2 md:order-3">
                         <a href="https://www.linkedin.com/in/brunno-costa/" target="_blank">
                             <img src={linkedin} alt="icons" loading="lazy"/>
                         </a>

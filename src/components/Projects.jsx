@@ -11,9 +11,9 @@ export function Projects() {
         <>
             <section id="projects" className="px-5 text-white mt-[85px] flex flex-col py-10 lg:px-20 2xl:px-96  font-sans animate-fadeIn">
                 <h2 className="text-xl lg:text-4xl font-semibold mb-10">Projects</h2>
-                <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-8 ">
+                <div className="w-full h-auto grid lg:grid-cols-2 grid-cols-1  gap-8 ">
                     <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] object-cover' src={project1} alt="" loading="lazy"/>
+                        <img className='w-full h-auto' src={project1} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>
@@ -25,7 +25,7 @@ export function Projects() {
                         </p>
                        </div>
 
-                        <div className='w-full text-sm flex justify-between items-center gap-2'>
+                        <div className='w-full  text-sm flex justify-between items-start gap-2'>
                             <button
                                 className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center h-12 lg:p-6 w-[226px]  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
                                <a href="https://rachi-front.netlify.app/" target='_blank'>Live preview</a>
@@ -39,7 +39,7 @@ export function Projects() {
                     </div>
 
                     <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px]' src={project2} alt="" loading="lazy"/>
+                        <img className='w-full h-auto' src={project2} alt="" loading="lazy"/>
 
                         <div className='flex flex-col space-y-6'>
                         <p className='text-base lg:text-2xl font-semibold'>
@@ -66,7 +66,7 @@ export function Projects() {
                     </div>
 
                     <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] object-cover' src={project3} alt="" loading="lazy"/>
+                        <img className='w-full h-auto' src={project3} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>
@@ -122,7 +122,7 @@ export function Projects() {
                     </div> */}
 
                     <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-[270px] ' src={project5} alt="" loading="lazy"/>
+                        <img className='w-full h-auto' src={project5} alt="" loading="lazy"/>
 
                        <div className='flex flex-col space-y-6'>
                        <p className='text-base lg:text-2xl font-semibold'>

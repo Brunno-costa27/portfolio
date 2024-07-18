@@ -8,8 +8,8 @@ const Timeline = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2022"
-      contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
-      contentArrowStyle={{ border: 'none', background: '#0F1624' }}
+      // contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
+      // contentArrowStyle={{ border: 'none', background: '#0F1624' }}
       iconStyle={{ 
         background: 'linear-gradient(to right, #13ADC7, #6978D1, #945DD6)',
         color: '#fff',
@@ -30,8 +30,8 @@ const Timeline = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2023"
-      contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
-      contentArrowStyle={{ border: 'none', background: '#0F1624' }}
+      // contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
+      // contentArrowStyle={{ border: 'none', background: '#0F1624' }}
       iconStyle={{ 
         background: 'linear-gradient(to right, #13ADC7, #6978D1, #945DD6)',
         color: '#fff',
@@ -50,8 +50,8 @@ const Timeline = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--work text-white"
       date="2023"
-      contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
-      contentArrowStyle={{ border: 'none', background: '#0F1624' }}
+      // contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none', border: "1px solid red" }}
+      // contentArrowStyle={{ border: '1px solid red', background: '#fff' }}
       iconStyle={{ 
         background: 'linear-gradient(to right, #13ADC7, #6978D1, #945DD6)',
         color: '#fff',
