@@ -41,7 +41,7 @@ export function Header() {
                 <header ref={timelineRef}  className="px-10 lg:px-20 text-white flex flex-col justify-between items-center py-10 2xl:px-96 font-sans space-y-10">
                     <div className='w-full flex justify-between items-center'>
                         <div className='w-full order-1 md:order-1'>
-                            <p className='font-medium text-2xl xs:text-3xl'>Portfolio</p>
+                            <p className='font-medium text-2xl xs:text-3xl'>Portifólio</p>
                         </div>
 
                         <div className="w-full flex justify-end gap-5 order-2 md:order-3">
@@ -65,7 +65,7 @@ export function Header() {
                                     href="#projects"
                                     onClick={(e) => handleScroll(e, 'projects')}
                                 >
-                                    Projects
+                                    Projetos
                                 </a>
                                 </li>
                                 <li className='relative text-sm'>
@@ -74,7 +74,7 @@ export function Header() {
                                         href="#technologies"
                                         onClick={(e) => handleScroll(e, 'technologies')}
                                     >
-                                        Technologies
+                                        Tecnologias
                                     </a>
                                     </li>
                                 <li className='relative text-sm'>
@@ -83,7 +83,7 @@ export function Header() {
                                         href="#aboutme"
                                         onClick={(e) => handleScroll(e, 'aboutme')}
                                     >
-                                        About me
+                                        Sobre mim
                                     </a>
                                     </li>
                             </ul>
@@ -96,7 +96,7 @@ export function Header() {
             ) : (
                 <header ref={timelineRef}   className="px-10 lg:px-20 text-white flex justify-between items-center py-10 2xl:px-96 font-sans">
                     <div className='flex  w-auto order-1 md:order-1'>
-                        <p className='font-medium text-3xl'>Portfolio</p>
+                        <p className='font-medium text-3xl'>Portifólio</p>
                     </div>
 
                     <div className="flex w-full justify-center order-3 md:order-2">
@@ -109,7 +109,7 @@ export function Header() {
                                     href="#projects"
                                     onClick={(e) => handleScroll(e, 'projects')}
                                 >
-                                    Projects
+                                    Projetos
                                 </a>
                                 </li>
                                 <li className='relative text-sm lg:text-xl xl:text-xl 2xl:text-xl'>
@@ -118,7 +118,7 @@ export function Header() {
                                         href="#technologies"
                                         onClick={(e) => handleScroll(e, 'technologies')}
                                     >
-                                        Technologies
+                                        Tecnologias
                                     </a>
                                     </li>
                                 <li className='relative text-sm lg:text-xl xl:text-xl 2xl:text-xl'>
@@ -127,7 +127,7 @@ export function Header() {
                                         href="#aboutme"
                                         onClick={(e) => handleScroll(e, 'aboutme')}
                                     >
-                                        About me
+                                        Sobre mim
                                     </a>
                                     </li>
                             </ul>

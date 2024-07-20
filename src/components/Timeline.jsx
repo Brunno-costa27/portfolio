@@ -6,13 +6,13 @@ const Timeline = () => {
   return (
     <VerticalTimeline className='w-full px-5 sm:px-6 lg:px-8'>
     <VerticalTimelineElement
-      className="vertical-timeline-element--work text-white"
+      className="vertical-timeline-element--work"
       date="2022"
       // contentStyle={{ background: '#0F1624', color: '#fff', padding: '20px', boxShadow: 'none' }}
       // contentArrowStyle={{ border: 'none', background: '#0F1624' }}
       iconStyle={{ 
         background: 'linear-gradient(to right, #13ADC7, #6978D1, #945DD6)',
-        color: '#fff',
+        color: '#0F1624',
         width: '40px',
         height: '40px',
         marginLeft: '-20px',

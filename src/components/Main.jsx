@@ -31,13 +31,15 @@ export function Main(){
         <main className="w-full px-5 text-white lg:mt-48 mt-20 flex justify-between items-center lg:px-20 2xl:px-96 font-sans relative  animate-fadeIn">
             <div className="flex flex-col justify-center items-center space-y-5 lg:space-y-20 lg:absolute px-5 lg:p-0 xl:p-0 2xl: p-0">
                <p className="w-full text-2xl lg:text-6xl flex flex-col lg:space-y-10 space-y-5">
-                <span className="gradient-text font-semibold">Hello, I'm Brunno, </span>
-                <span className='font-semibold'>Full Stack developer</span>
+                <span className="gradient-text font-semibold">Olá, meu nome é Brunno, </span>
+                <span className='font-semibold'>Desenvolvedor Front End</span>
                 </p>
 
-                <p className='text-[#929EB0] lg:text-base text-sm lg:w-[620px] text-left tracking-tighter'>
-                graduated in Systems Analysis and Development from the Federal Institute of Rio Grande do Norte. He has solid programming skills, having experience in the JavaScript language.
-                </p>
+                <div className='flex justify-start items-start w-full'>
+                  <p className='text-[#929EB0] lg:text-base text-sm lg:w-[620px] text-left tracking-tighter'>
+                  graduado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal do Rio Grande do Norte. Possui sólidas habilidades de programação, tendo experiência na linguagem JavaScript.
+                  </p>
+                </div>
 
                 <div className='w-full'>
                 <button 
@@ -45,7 +47,7 @@ export function Main(){
                     type='button'
                     onClick={handleDownload}
                     className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center p-3 lg:p-6 lg:w-[226px] w-full  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90 ">
-                    Download CV 
+                    Baixar CV 
                 </button>
           
                 </div>
