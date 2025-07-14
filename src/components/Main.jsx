@@ -47,7 +47,7 @@ export function Main(){
                     type='button'
                     onClick={handleDownload}
                     className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center p-3 lg:p-6 lg:w-[226px] w-full  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90 ">
-                    Baixar 
+                    Currículo
                 </button>
           
                 </div>
