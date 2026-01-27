@@ -12,10 +12,10 @@ export function Projects() {
             <section id="projects" className="px-5 text-white mt-[85px] flex flex-col py-10 lg:px-20 2xl:px-96  font-sans animate-fadeIn">
                 <h2 className="text-xl lg:text-4xl font-semibold mb-10">Projetos</h2>
                 <div className="w-full h-auto grid lg:grid-cols-2 grid-cols-1  gap-8 ">
-                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-auto' src={project1} alt="" loading="lazy"/>
+                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-6 lg:space-y-10 flex flex-col'>
+                        <img className='w-full h-auto rounded-lg' src={project1} alt="" loading="lazy"/>
 
-                       <div className='flex flex-col space-y-6'>
+                       <div className='flex flex-col space-y-4 lg:space-y-6 flex-1'>
                        <p className='text-base lg:text-2xl font-semibold'>
                        Página inicial do desafio de front-end
                         </p>
@@ -25,23 +25,23 @@ export function Projects() {
                         </p>
                        </div>
 
-                        <div className='w-full  text-sm flex justify-between items-start gap-2'>
-                            <button
-                                className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center h-12 lg:p-6 w-[226px]  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
-                               <a href="https://rachi-front.netlify.app/" target='_blank'>Visualização</a>
-                            </button>
+                        <div className='w-full text-sm flex flex-col sm:flex-row justify-between items-center gap-3'>
+                            <a href="https://rachi-front.netlify.app/" target='_blank'
+                                className="flex shadow-lg shadow-[#00B2FF] justify-center items-center h-12 w-full sm:w-[226px] rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] to-[#945DD6] hover:opacity-90">
+                               Visualização
+                            </a>
 
-                            <button
-                                className="flex  justify-center items-center p-6 w-[226px] border border-white h-12  rounded-full hover:opacity-90">
-                              <a href="https://github.com/Brunno-costa27/rachi" target='_blank'>Github</a>
-                            </button>
+                            <a href="https://github.com/Brunno-costa27/rachi" target='_blank'
+                                className="flex justify-center items-center h-12 w-full sm:w-[226px] border border-white rounded-full hover:opacity-90">
+                              Github
+                            </a>
                         </div>
                     </div>
 
-                    <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-auto' src={project2} alt="" loading="lazy"/>
+                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-6 lg:space-y-10 flex flex-col'>
+                        <img className='w-full h-auto rounded-lg' src={project2} alt="" loading="lazy"/>
 
-                        <div className='flex flex-col space-y-6'>
+                        <div className='flex flex-col space-y-4 lg:space-y-6 flex-1'>
                         <p className='text-base lg:text-2xl font-semibold'>
                         Potifólio para desenvolvedor front-end
                         </p>
@@ -51,24 +51,23 @@ export function Projects() {
                         </p>
                         </div>
 
-                        <div className='w-full text-sm flex justify-between items-center gap-2'>
-                            <button
-                                className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center h-12 lg:p-6 w-[226px]  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
-                                <a href="https://lange-page-portfolio.netlify.app/" target='_blank'>Visualização</a>
-                                
-                            </button>
+                        <div className='w-full text-sm flex flex-col sm:flex-row justify-between items-center gap-3'>
+                            <a href="https://lange-page-portfolio.netlify.app/" target='_blank'
+                                className="flex shadow-lg shadow-[#00B2FF] justify-center items-center h-12 w-full sm:w-[226px] rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] to-[#945DD6] hover:opacity-90">
+                                Visualização
+                            </a>
 
-                            <button
-                                className="flex  justify-center items-center p-6 w-[226px] h-12 rounded-full border border-white hover:opacity-90">
-                               <a href="https://github.com/Brunno-costa27/portfolio" target='_blank'>Github</a>
-                            </button>
+                            <a href="https://github.com/Brunno-costa27/portfolio" target='_blank'
+                                className="flex justify-center items-center h-12 w-full sm:w-[226px] rounded-full border border-white hover:opacity-90">
+                               Github
+                            </a>
                         </div>
                     </div>
 
-                    <div className='border border-fuchsia-300  lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-auto' src={project3} alt="" loading="lazy"/>
+                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-6 lg:space-y-10 flex flex-col'>
+                        <img className='w-full h-auto rounded-lg' src={project3} alt="" loading="lazy"/>
 
-                       <div className='flex flex-col space-y-6'>
+                       <div className='flex flex-col space-y-4 lg:space-y-6 flex-1'>
                        <p className='text-base lg:text-2xl font-semibold'>
                        Página inicial de um menu online
                         </p>
@@ -78,23 +77,22 @@ export function Projects() {
                         </p>
                        </div>
 
-                        <div className='w-full text-sm flex justify-between items-center gap-2'>
-                            <button
-                                className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center lg:p-6 h-12 w-[226px]  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
-                              
-                                <a href="https://cardapio-teste.netlify.app/" target='_blank'>Visualização</a>
-                            </button>
+                        <div className='w-full text-sm flex flex-col sm:flex-row justify-between items-center gap-3'>
+                            <a href="https://cardapio-teste.netlify.app/" target='_blank'
+                                className="flex shadow-lg shadow-[#00B2FF] justify-center items-center h-12 w-full sm:w-[226px] rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] to-[#945DD6] hover:opacity-90">
+                                Visualização
+                            </a>
 
-                            <button
-                                className="flex  justify-center items-center p-6 w-[226px] h-12 rounded-full border border-white hover:opacity-90">
-                                <a href="https://github.com/Brunno-costa27/cardapio-online" target='_blank'>Github</a>
-                            </button>
+                            <a href="https://github.com/Brunno-costa27/cardapio-online" target='_blank'
+                                className="flex justify-center items-center h-12 w-full sm:w-[226px] rounded-full border border-white hover:opacity-90">
+                                Github
+                            </a>
                         </div>
                     </div>
-                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-10'>
-                        <img className='w-full h-auto' src={project5} alt="" loading="lazy"/>
+                    <div className='border border-fuchsia-300 lg:p-10 p-5 rounded-[25px] space-y-6 lg:space-y-10 flex flex-col'>
+                        <img className='w-full h-auto rounded-lg' src={project5} alt="" loading="lazy"/>
 
-                       <div className='flex flex-col space-y-6'>
+                       <div className='flex flex-col space-y-4 lg:space-y-6 flex-1'>
                        <p className='text-base lg:text-2xl font-semibold'>
                        Página inicial do desafio de front-end
                         </p>
@@ -104,17 +102,16 @@ export function Projects() {
                         </p>
                        </div>
 
-                        <div className='w-full text-sm flex justify-between items-center gap-2'>
-                            <button
-                                className="flex shadow-lg shadow-[#00B2FF]  justify-center items-center lg:p-6 h-12 w-[226px]  rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] via- to-[#945DD6] hover:opacity-90">
-                               <a href="https://landingpagescursos.netlify.app/" target='_blank'>Live preview</a>
-                            </button>
+                        <div className='w-full text-sm flex flex-col sm:flex-row justify-between items-center gap-3'>
+                            <a href="https://landingpagescursos.netlify.app/" target='_blank'
+                                className="flex shadow-lg shadow-[#00B2FF] justify-center items-center h-12 w-full sm:w-[226px] rounded-full bg-gradient-to-r from-[#13ADC7] via-[#6978D1] to-[#945DD6] hover:opacity-90">
+                               Live preview
+                            </a>
 
-                            <button
-                                className="flex justify-center items-center p-6 w-[226px] border h-12 border-white rounded-full hover:opacity-90">
-                                 <a href="https://github.com/Brunno-costa27/landing-page-cursojs" target='_blank'>Github</a>
-                                
-                            </button>
+                            <a href="https://github.com/Brunno-costa27/landing-page-cursojs" target='_blank'
+                                className="flex justify-center items-center h-12 w-full sm:w-[226px] border border-white rounded-full hover:opacity-90">
+                                 Github
+                            </a>
                         </div>
                     </div>
                 </div>
