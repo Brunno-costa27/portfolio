@@ -23,7 +23,7 @@ const Timeline = () => {
       icon={<i className="fas fa-briefcase" style={{ fontSize: '16px' }}></i>}
     >
       <p className='text-[#929EB0]'>
-        I worked as an intern for a year as a full stack developer.
+        Trabalhei como estagiário por um ano como desenvolvedor full stack.
       </p>
     </VerticalTimelineElement>
 
@@ -43,7 +43,7 @@ const Timeline = () => {
       icon={<i className="fas fa-briefcase text-white"></i>}
     >
       <p className='text-[#929EB0]'>
-      I worked as a front end developer as a volunteer for an NGO for a month.
+      Trabalhei como desenvolvedor front end voluntário em uma ONG por um mês.
       </p>
     </VerticalTimelineElement>
 
@@ -63,7 +63,7 @@ const Timeline = () => {
       icon={<i className="fas fa-briefcase text-white"></i>}
     >
       <p className='text-[#929EB0]'>
-        Graduated from the Federal Institute of Rio Grande do Norte (IFRN) where he developed several projects in the area of ​​software development.
+        Formado pelo Instituto Federal do Rio Grande do Norte (IFRN), onde desenvolveu diversos projetos na área de desenvolvimento de software.
       </p>
     </VerticalTimelineElement>
 
@@ -83,7 +83,7 @@ const Timeline = () => {
       icon={<i className="fas fa-briefcase text-white"></i>}
     >
       <p className='text-[#929EB0]'>
-      took a reactJs and NodeJs course at <span className="gradient-text"><a href="https://app.rocketseat.com.br/">rocketseat</a></span> platform.
+      Fiz um curso de ReactJS e NodeJS na plataforma <span className="gradient-text"><a href="https://app.rocketseat.com.br/">rocketseat</a></span>.
       </p>
     </VerticalTimelineElement> */}
   </VerticalTimeline>
